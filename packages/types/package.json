@@ -1,0 +1,18 @@
+{
+    "name": "@mixtape-bot/obsidian-api",
+    "version": "1.0.1",
+    "description": "JavaScript client for Obsidian",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "repository": "https://github.com/mixtape-bot/obsidian-client-javascript",
+    "files": [
+        "dist"
+    ],
+    "author": "mixtape team",
+    "license": "Apache-2.0",
+    "private": false,
+    "devDependencies": {
+        "@types/node": "^16.4.10",
+        "typescript": "^4.3.5"
+    }
+}
