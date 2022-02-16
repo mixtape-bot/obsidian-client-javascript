@@ -1,0 +1,23 @@
+{
+  "name": "@mixtape-bot/obsidian",
+  "version": "1.0.0",
+  "description": "JavaScript client for Obsidian",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/mixtape-bot/obsidian-client-javascript",
+  "author": "mixtape team",
+  "license": "Apache-2.0",
+  "private": false,
+  "dependencies": {
+    "@mixtape-bot/obsidian-api": "^1.0.2",
+    "tiny-typed-emitter": "^2.1.0",
+    "undici": "^4.14.1",
+    "ws": "^8.5.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.2.2",
+    "discord.js": "^13.6.0",
+    "neocord": "^0.0.0-alpha.7",
+    "ts-node": "^10.5.0"
+  }
+}

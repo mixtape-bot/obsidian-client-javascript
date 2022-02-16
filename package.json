@@ -1,18 +1,17 @@
 {
-    "name": "@mixtape-bot/obsidian-api",
-    "version": "1.0.2",
+    "name": "@mixtape-bot/obsidian",
     "description": "JavaScript client for Obsidian",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
     "repository": "https://github.com/mixtape-bot/obsidian-client-javascript",
-    "files": [
-        "dist"
-    ],
     "author": "mixtape team",
-    "license": "Apache-2.0",
-    "private": false,
+    "license": "GPL-2.1-only",
+    "private": true,
     "devDependencies": {
         "@types/node": "^16.4.10",
+        "@types/ws": "^7.4.7",
+        "lerna": "^4.0.0",
         "typescript": "^4.3.5"
-    }
+    },
+    "workspaces": [
+        "./packages"
+    ]
 }

@@ -17,7 +17,7 @@ export type TremoloFilter = OscillatingFilter;
 
 export type EqualizerFilter = Array<EqualizerBand>;
 
-export type DistortionFilter = Record<`${SOHCAHTOA}_offset` | `${SOHCAHTOA}_scale` | "offset" | "scale", number>;
+export type DistortionFilter = Record<`${SOHCAHTOA}_${DistortionOption}` | DistortionOption, number>;
 
 export type TimescaleFilter = {
     pitch: number;
@@ -67,7 +67,8 @@ export interface EqualizerBand {
 }
 
 type Direction = "right" | "left";
-type SOHCAHTOA = "sin" | "cos" | "tan"
+type SOHCAHTOA = "sin" | "cos" | "tan";
+type DistortionOption = "scale" | "offset"
 
 interface OscillatingFilter {
     depth: number;
